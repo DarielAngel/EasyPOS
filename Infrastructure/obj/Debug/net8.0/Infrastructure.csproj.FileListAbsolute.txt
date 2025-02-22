@@ -1,0 +1,17 @@
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Application.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Domain.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Domain.pdb
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/bin/Debug/net8.0/Application.pdb
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastr.15EFFBFE.Up2Date
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll

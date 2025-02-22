@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj",
+        "packagesPath": "/home/dukagin/.nuget/packages/",
+        "outputPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dukagin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj": {
+                "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj",
+        "packagesPath": "/home/dukagin/.nuget/packages/",
+        "outputPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dukagin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/dukagin/.nuget/packages/",
+        "outputPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dukagin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj": {
+                "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj"
+              },
+              "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj": {
+                "projectPath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

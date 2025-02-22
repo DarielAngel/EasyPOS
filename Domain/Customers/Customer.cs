@@ -1,0 +1,37 @@
+using System.Dynamic;
+using Domain.Primitives;
+using Domain.ValueObjects;
+
+namespace Domain.Customers;
+
+public sealed class Customer : AgregateRoot {
+    public Customer()
+    {
+    }
+    public Customer(CustomerId id, string name, string lastname, string email, PhoneNumber phoneNumber, Address address, bool active)
+    {
+        Id = id;
+        Name = name;
+        Lastname = lastname;
+        Email = email;
+        PhoneNumber = phoneNumber;
+        Address = address;
+        Active = active;
+    }
+
+    public CustomerId Id { get; private set;}
+
+    public string Name {get; private set;} = string.Empty;
+
+    public string Lastname {get; private set;} = string.Empty;    
+
+    public string FullName => $"{Name} {FullName}";
+
+    public string Email {get; private set;} = string.Empty;
+
+    public PhoneNumber PhoneNumber {get; private set;}
+
+    public Address Address {get; private set;}
+
+    public bool Active {get; set;}
+}
