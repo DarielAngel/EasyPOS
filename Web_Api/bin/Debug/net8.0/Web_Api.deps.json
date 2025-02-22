@@ -103,6 +103,20 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.2": {},
+      "Microsoft.EntityFrameworkCore.Relational/9.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.2",
+          "Microsoft.Extensions.Caching.Memory": "9.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging": "9.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.225.6701"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Caching.Abstractions/9.0.2": {
         "dependencies": {
@@ -125,6 +139,17 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.225.6610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.225.6610"
           }
@@ -254,7 +279,8 @@
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "MediatR": "12.4.1",
-          "Microsoft.EntityFrameworkCore": "9.0.2"
+          "Microsoft.EntityFrameworkCore": "9.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.2"
         },
         "runtime": {
           "Application.dll": {
@@ -357,6 +383,13 @@
       "path": "microsoft.entityframeworkcore.analyzers/9.0.2",
       "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Relational/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r7O4N5uaM95InVSGUj7SMOQWN0f1PBF2Y30ow7Jg+pGX5GJCRVd/1fq83lQ50YMyq+EzyHac5o4CDQA2RsjKJQ==",
+      "path": "microsoft.entityframeworkcore.relational/9.0.2",
+      "hashPath": "microsoft.entityframeworkcore.relational.9.0.2.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
       "serviceable": true,
@@ -377,6 +410,13 @@
       "sha512": "sha512-AlEfp0DMz8E1h1Exi8LBrUCNmCYcGDfSM4F/uK1D1cYx/R3w0LVvlmjICqxqXTsy7BEZaCf5leRZY2FuPEiFaw==",
       "path": "microsoft.extensions.caching.memory/9.0.2",
       "hashPath": "microsoft.extensions.caching.memory.9.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I0O/270E/lUNqbBxlRVjxKOMZyYjP88dpEgQTveml+h2lTzAP4vbawLVwjS9SC7lKaU893bwyyNz0IVJYsm9EA==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.2": {
       "type": "package",

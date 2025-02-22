@@ -53,3 +53,6 @@
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/obj/Debug/net8.0/Web_Api.sourcelink.json

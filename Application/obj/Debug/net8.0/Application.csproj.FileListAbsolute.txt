@@ -13,3 +13,4 @@
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/refint/Application.dll
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.pdb
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/ref/Application.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.sourcelink.json

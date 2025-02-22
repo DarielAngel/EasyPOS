@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SPRVDCL/ulA=",
+  "dgSpecHash": "X8VVsuJISJY=",
   "success": true,
   "projectFilePath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,10 @@
     "/home/dukagin/.nuget/packages/microsoft.entityframeworkcore/9.0.2/microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.2/microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.2/microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",
+    "/home/dukagin/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.2/microsoft.entityframeworkcore.relational.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.2/microsoft.extensions.caching.abstractions.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.caching.memory/9.0.2/microsoft.extensions.caching.memory.9.0.2.nupkg.sha512",
+    "/home/dukagin/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.2/microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.logging/9.0.2/microsoft.extensions.logging.9.0.2.nupkg.sha512",
