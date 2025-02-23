@@ -8,9 +8,9 @@
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.sourcelink.json
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.dll
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/refint/Application.dll
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.pdb
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/ref/Application.dll
-/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/obj/Debug/net8.0/Application.sourcelink.json
