@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "ErrorOr/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -51,6 +64,23 @@
     }
   },
   "libraries": {
+    "ErrorOr/2.0.1": {
+      "sha512": "aje9lUVEAsusPFmaRcVM5EUqWBofd7hYtb9N8+ycgPYrtOzyFajMpzRgIO4uuiCllNLBc3x48+cpA+4v4koUDQ==",
+      "type": "package",
+      "path": "erroror/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "erroror.2.0.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
+      ]
+    },
     "MediatR/12.4.1": {
       "sha512": "0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
       "type": "package",
@@ -117,6 +147,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ErrorOr >= 2.0.1",
       "MediatR >= 12.4.1"
     ]
   },
@@ -162,6 +193,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.4.1, )"

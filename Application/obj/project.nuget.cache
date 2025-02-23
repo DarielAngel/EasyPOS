@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ljuOX19sqF0=",
+  "dgSpecHash": "7qrt2vpRtcI=",
   "success": true,
   "projectFilePath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/dukagin/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/dukagin/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/home/dukagin/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
     "/home/dukagin/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/dukagin/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "/home/dukagin/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",

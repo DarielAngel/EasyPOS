@@ -181,3 +181,4 @@
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/obj/Debug/net8.0/Web_Api.pdb
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/obj/Debug/net8.0/Web_Api.genruntimeconfig.cache
 /media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/obj/Debug/net8.0/ref/Web_Api.dll
+/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Web_Api/bin/Debug/net8.0/ErrorOr.dll

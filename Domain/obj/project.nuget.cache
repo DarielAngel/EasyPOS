@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CGb2czPm6Lc=",
+  "dgSpecHash": "H3oj40tWik8=",
   "success": true,
   "projectFilePath": "/media/dukagin/Almacen/Work/Dariel/CleanArquitecture/EasyPOS/Domain/Domain.csproj",
   "expectedPackageFiles": [
+    "/home/dukagin/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
     "/home/dukagin/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/home/dukagin/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/dukagin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

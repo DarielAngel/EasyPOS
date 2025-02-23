@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.ApplyMigrations();
 }
 
+app.UseExceptionHandler("/error");
+
 app.UseHttpsRedirection();
 
 var summaries = new[]
