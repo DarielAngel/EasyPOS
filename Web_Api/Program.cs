@@ -18,6 +18,33 @@ builder.Services.AddPresentation()
                 .AddInfrastructure(builder.Configuration)
                 .AddAplication();
 
+/*
+builder.WebHost.UseUrls(
+    "http://localhost:5206", 
+    "https://localhost:7275"
+);
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5206);  // Puerto HTTP
+    options.ListenAnyIP(7275, listenOptions =>
+    {
+        listenOptions.UseHttps();
+    });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+*/
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,11 +53,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
     app.ApplyMigrations();
+
+    //app.UseCors("AllowAllOrigins");
 }
 
 app.UseExceptionHandler("/error");
 
 app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
 
 var summaries = new[]
 {

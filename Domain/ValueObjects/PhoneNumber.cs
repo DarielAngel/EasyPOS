@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 namespace Domain.ValueObjects;
 
 public partial record PhoneNumber {
-    private const int DefaultLenght = 8;
+    private const int DefaultLenght = 9;
 
-    private const string Pattern = @"^\+(?:[0-9] ?){6,14}[0-9]$";
+    private const string Pattern = @"^(?:-*\d-*){8}$";
 
     private PhoneNumber (string value) => Value = value;
 

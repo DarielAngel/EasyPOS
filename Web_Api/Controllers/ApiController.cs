@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Web_Api.Controllers;
 
+[ApiController]
 public class ApiController : ControllerBase {
     protected IActionResult Problem (List<Error> errors) {
         if(errors.Count is 0) {
@@ -27,7 +28,7 @@ public class ApiController : ControllerBase {
             ErrorType.Validation => StatusCodes.Status400BadRequest,
             ErrorType.NotFound => StatusCodes.Status404NotFound,
             ErrorType.Forbidden => StatusCodes.Status403Forbidden,
-            _ => StatusCodes.Status500InternalServerError
+            _ => StatusCodes.Status500InternalServerError,
         };
 
         return Problem (
