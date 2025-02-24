@@ -1,4 +1,3 @@
-using System.Dynamic;
 using Domain.Primitives;
 using Domain.ValueObjects;
 
@@ -10,12 +9,12 @@ public sealed class Customer : AgregateRoot {
     }
     public Customer(CustomerId id, string name, string lastname, string email, PhoneNumber phoneNumber, Address address, bool active)
     {
-        Id = id;
-        Name = name;
-        Lastname = lastname;
-        Email = email;
-        PhoneNumber = phoneNumber;
-        Address = address;
+        Id = id ?? throw new ArgumentNullException(nameof(id));
+        Name = name ?? throw new ArgumentNullException(nameof(name));
+        Lastname = lastname ?? throw new ArgumentNullException(nameof(lastname));
+        Email = email ?? throw new ArgumentNullException(nameof(email));
+        PhoneNumber = phoneNumber ?? throw new ArgumentNullException(nameof(phoneNumber));
+        Address = address ?? throw new ArgumentNullException(nameof(address));
         Active = active;
     }
 
@@ -34,4 +33,8 @@ public sealed class Customer : AgregateRoot {
     public Address Address {get; private set;}
 
     public bool Active {get; set;}
+
+    public static Customer UpdateCustomer(Guid id, string name, string lastname, string email, PhoneNumber phoneNumber, Address address, bool active) {
+        return new Customer(new CustomerId(id), name, lastname, email, phoneNumber, address, active);
+    }
 }
