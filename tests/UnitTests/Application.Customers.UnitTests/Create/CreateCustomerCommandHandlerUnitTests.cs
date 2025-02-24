@@ -54,4 +54,31 @@ public class CreateCustomerCommandHandlerUnitTests
         result.FirstError.Code.Should().Be(Errors.Customer.PhoneNumberWithBadFormat.Code);
         result.FirstError.Description.Should().Be(Errors.Customer.PhoneNumberWithBadFormat.Description);
     }
+
+    [Fact]
+    public async Task HandleCreateCustomer_WhenAddressHasBadFormat_ShouldReturnValidationError()
+    {
+        // Arrange (se configura los parametros de entrada de nuestra prueba unitaria)
+        CreateCustomerCommand command = new CreateCustomerCommand(
+            "Dariel",
+            "yyy",
+            "a@gmail.com",
+            "5734-5354",
+            "CUB",
+            "Adress Line 1",
+            "Adress Line 2",
+            "",
+            "hshshs",
+            "5489"
+        );
+        
+        // Act (se ejecuta el método a probar de nuestra prueba unitaria)
+        var result = await _handler.Handle(command, default);
+        
+        // Assert (se verifica los datos de retorno de nuestro método probado en la prueba unitaria)
+        result.IsError.Should().BeTrue(); // hay error
+        result.FirstError.Type.Should().Be(ErrorType.Validation);
+        result.FirstError.Code.Should().Be(Errors.Customer.AddressWithBadFormat.Code);
+        result.FirstError.Description.Should().Be(Errors.Customer.AddressWithBadFormat.Description);
+    }
 }
