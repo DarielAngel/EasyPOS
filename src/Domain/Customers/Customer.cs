@@ -24,7 +24,7 @@ public sealed class Customer : AgregateRoot {
 
     public string Lastname {get; private set;} = string.Empty;    
 
-    public string FullName => $"{Name} {FullName}";
+    public string FullName => $"{Name} {Lastname}".Trim();
 
     public string Email {get; private set;} = string.Empty;
 
